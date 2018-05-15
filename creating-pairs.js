@@ -7,3 +7,5 @@ function createPairs(arr) {
     }
   }
 }
+
+//Polynomial O(n^2) because it is a loop inside a loop
