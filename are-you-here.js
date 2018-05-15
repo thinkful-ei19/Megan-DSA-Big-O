@@ -9,3 +9,6 @@ function areYouHere(arr1, arr2) {
   }
   return false;
 }
+
+//this is a Polynomial O(n^2) because it has a loop inside a loop, 
+//meaning that it's time will increase based on how many items are in your input
