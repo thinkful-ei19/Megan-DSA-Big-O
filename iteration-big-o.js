@@ -73,8 +73,7 @@ function split(str, sep) {
   ret.push(str);
   return ret;
 }
-//Log or Linear? Unclear.  Is it Linear because it touches each item to check for the separator
-//or is it logarithmic because it touches each one but then eliminates that part of the data set up until it finds the sep?
+//Linear Is it Linear because it touches each item to check for the separator
 
 /*=================================================================================
 Exercise 6 - Binary Representation
