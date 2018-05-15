@@ -12,3 +12,6 @@ function isPrime(n) {
   }
   return true;
 }
+
+//Linear O(n) because it only loops through the input once and is only checking 
+//to see if it is divisible by an integer.

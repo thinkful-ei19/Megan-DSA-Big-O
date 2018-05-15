@@ -22,3 +22,7 @@ function efficientSearch(array, item) {
   }
   return -1;
 }
+
+//Logarithmic O(log(n)) because it is cutting the data set in half and then 
+//checking to see if it's higher or lower than the number we want
+//it then continues to cut the data set

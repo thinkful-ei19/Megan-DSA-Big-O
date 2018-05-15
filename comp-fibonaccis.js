@@ -25,3 +25,6 @@ function generateFib(num) {
   // we return `result`.
   return result;
 }
+
+//linear O(n) because it is only going through the loop once and does not cut off
+//or eliminate any part of the input
