@@ -7,3 +7,5 @@ function naiveSearch(array, item) {
     }
   }
 }
+
+//Linear O(n) because it is only looping through the array set once
